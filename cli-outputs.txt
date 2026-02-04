@@ -8,7 +8,49 @@ Save all your S3 CLI command outputs here.
 
 ```bash
 $ aws s3 cp cli-test.txt s3://your-name-bootcamp-demo-2024/
-[Paste output]
+[PS C:\Users\jekra> aws s3 cp cli-test.txt s3://ahmet-erdogan-bootcamp-demo-2026
+upload: .\cli-test.txt to s3://ahmet-erdogan-bootcamp-demo-2026/cli-test.txt
+PS C:\Users\jekra> aws s3 cp cli-test.txt s3://ahmet-erdogan-bootcamp-demo-2026/
+upload: .\cli-test.txt to s3://ahmet-erdogan-bootcamp-demo-2026/cli-test.txt
+PS C:\Users\jekra> aws s3 ls s3://ahmet-erdogan-bootcamp-demo-2026/
+                           PRE backups/
+                           PRE documents/
+                           PRE images/
+2026-02-04 16:51:20      23707 Ahmet_Erdogan_gitreflection.pdf
+2026-02-04 16:51:19         17 asidjqewjgevijhf;.txt
+2026-02-04 17:02:16         16 cli-test.txt
+2026-02-04 16:51:20       9216 white-plain-concrete-textured-background-photo.jpg
+PS C:\Users\jekra> aws s3 ls s3://ahmet-erdogan-bootcamp-demo-2026/
+                           PRE backups/
+                           PRE documents/
+                           PRE images/
+2026-02-04 16:51:20      23707 Ahmet_Erdogan_gitreflection.pdf
+2026-02-04 16:51:19         17 asidjqewjgevijhf;.txt
+2026-02-04 17:02:16         16 cli-test.txt
+2026-02-04 16:51:20       9216 white-plain-concrete-textured-background-photo.jpg
+PS C:\Users\jekra> # Download single file
+PS C:\Users\jekra> aws s3 cp s3://your-name-bootcamp-demo-2024/cli-test.txt ./downloads/
+fatal error: An error occurred (404) when calling the HeadObject operation: Key "cli-test.txt" does not exist
+PS C:\Users\jekra>
+PS C:\Users\jekra> # Download entire folder
+PS C:\Users\jekra> aws s3 cp s3://your-name-bootcamp-demo-2024/images/ ./downloads/images/ --recursive
+fatal error: An error occurred (NoSuchBucket) when calling the ListObjectsV2 operation: The specified bucket does not exist
+PS C:\Users\jekra> aws s3 cp s3://your-name-bootcamp-demo-2024/cli-test.txt ./downloads/
+fatal error: An error occurred (404) when calling the HeadObject operation: Key "cli-test.txt" does not exist
+PS C:\Users\jekra> aws s3 cp s3://ahmet-erdogan-bootcamp-demo-2026/cli-test.txt.txt ./downloads/
+fatal error: An error occurred (404) when calling the HeadObject operation: Key "cli-test.txt.txt" does not exist
+PS C:\Users\jekra> aws s3 cp s3://ahmet-erdogan-bootcamp-demo-2026/cli-test.txt ./downloads/
+download: s3://ahmet-erdogan-bootcamp-demo-2026/cli-test.txt to downloads\cli-test.txt
+PS C:\Users\jekra> aws s3 cp s3://ahmet-erdogan-bootcamp-demo-2026/images/ ./downloads/images/ --recursive
+download: s3://ahmet-erdogan-bootcamp-demo-2026/images/white-plain-concrete-textured-background-photo.jpg to downloads\images\white-plain-concrete-textured-background-photo.jpg
+PS C:\Users\jekra> aws s3 rm s3://ahmet-erdogan-bootcamp-demo-2026/cli-test.txt
+delete: s3://ahmet-erdogan-bootcamp-demo-2026/cli-test.txt
+PS C:\Users\jekra> aws s3 rm s3:///backups/ --recursive^C
+PS C:\Users\jekra> ^C
+PS C:\Users\jekra> ^C
+PS C:\Users\jekra> aws s3 rm s3://ahmet-erdogan-bootcamp-demo-2026/backups/ --recursive
+delete: s3://ahmet-erdogan-bootcamp-demo-2026/backups/
+PS C:\Users\jekra>]
 ```
 
 ---
