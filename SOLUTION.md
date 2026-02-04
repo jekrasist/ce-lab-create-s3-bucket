@@ -1,23 +1,25 @@
 # Create S3 Bucket Lab - Solution
 
-**Student Name:** [Your Name]  
-**Date:** [Date]
+**Student Name:** [Ahmet Erdogan]  
+**Date:** [04.02.2026]
 
 ---
 
 ## Exercise 1: Bucket Creation
 
-**Bucket Name:** [your-name-bootcamp-demo-2024]  
+**Bucket Name:** [ahmet-erdogan-bootcamp-demo-2026]  
 **Region:** [us-east-1]
 
-![Bucket Created](screenshots/bucket-created.png)
+![Bucket Created](<img width="1893" height="769" alt="image" src="https://github.com/user-attachments/assets/e776e3ef-e800-4964-99b6-6617f5b2e66b" />
+)
 
 ---
 
 ## Exercise 2: Object Uploads
 
 ### Files Uploaded:
-1. [File 1 name and type]
+1. [<img width="1317" height="635" alt="image" src="https://github.com/user-attachments/assets/1596ec3e-b66e-4351-be49-8338e7cb8c30" />
+]
 2. [File 2 name and type]
 3. [File 3 name and type]
 
@@ -35,7 +37,8 @@
 
 ## Exercise 3: Storage Classes
 
-![Storage Classes](screenshots/storage-classes.png)
+![Storage Classes](<img width="1537" height="538" alt="image" src="https://github.com/user-attachments/assets/194d8261-a595-4e86-ae27-4ca66522b150" />
+)
 
 **Storage Classes Used:**
 - Standard: [Number] objects
@@ -47,18 +50,22 @@
 ## Exercise 4: Bucket Features
 
 ### Versioning:
-![Versioning Enabled](screenshots/versioning-enabled.png)
-![Versions List](screenshots/versions.png)
+![Versioning Enabled](<img width="1600" height="653" alt="image" src="https://github.com/user-attachments/assets/d58f6d74-5697-4900-b105-5486fad88fab" />
+)
+![Versions List](<img width="1600" height="568" alt="image" src="https://github.com/user-attachments/assets/1a55f4e5-84d1-4168-bec9-5139fcb5d082" />
+)
 
-**Number of versions created:** [X]
+**Number of versions created:** [3]
 
 ### Encryption:
-![Encryption Enabled](screenshots/encryption-enabled.png)
+![Encryption Enabled](<img width="1600" height="425" alt="image" src="https://github.com/user-attachments/assets/213b4e91-59c3-405a-b5f3-f6b74793f06b" />
+)
 
 **Encryption type:** SSE-S3
 
 ### Tags:
-![Tags](screenshots/tags.png)
+![Tags](<img width="1600" height="579" alt="image" src="https://github.com/user-attachments/assets/50e2eada-b02f-48a4-9cb7-9e8a82aec25d" />
+)
 
 **Tags Added:**
 - Environment: Development
@@ -78,7 +85,8 @@
 
 ## Exercise 6: Sync Operations
 
-![Synced Files](screenshots/synced-files.png)
+![Synced Files](<img width="1600" height="316" alt="image" src="https://github.com/user-attachments/assets/3026e6c3-ee2b-4861-b040-4fa7e09bba1a" />
+)
 
 **Files Synced:** [Number]  
 **Total Size:** [Size]
@@ -87,7 +95,8 @@
 
 ## Exercise 7: Metrics
 
-![Bucket Metrics](screenshots/bucket-metrics.png)
+![Bucket Metrics](<img width="1600" height="788" alt="image" src="https://github.com/user-attachments/assets/c59d2d33-48c6-4572-9c38-a2f0a541545b" />
+)
 
 **Bucket Statistics:**
 - Total objects: [X]
@@ -137,4 +146,4 @@ See `cli-outputs.txt` for all command outputs.
 - [ ] All screenshots captured
 - [ ] Bucket cleaned up (deleted)
 
-**Completed By:** [Your Name]
+**Completed By:** [Ahmet Erdogan]
